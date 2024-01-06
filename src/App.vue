@@ -1,24 +1,10 @@
 <script setup>
-import { ref } from 'vue';
-import Header from '@/components/Header.vue'
-
-let a = ref(1);
-const c = "hello";
-const disable = ref(false);
-const handleClick = () => {
-  a.value++;
-  if (a == 10) {
-    disable.value = true;
-    a.value = 0;
-  };
-}
+import Header from '@/components/Header.vue';
+import LessonTwo from '@/components/LessonTwo.vue';
 </script>
 
 <template>
-  <h1 :class="c" :style="{
-    padding: 20
-  }">{{ a }}</h1>
-  <button @click="handleClick" :disabled="disable">Click me</button>
+  <LessonTwo />
   <Header />
 </template>
 
