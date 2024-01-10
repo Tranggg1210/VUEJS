@@ -1,11 +1,13 @@
 <script setup>
 import Header from '@/components/Header.vue';
 import LessonTwo from '@/components/LessonTwo.vue';
+import LoginForm from './components/LoginForm.vue';
 </script>
 
 <template>
-  <LessonTwo />
   <Header />
+  <LessonTwo />
+  <LoginForm />
 </template>
 
 <style scoped>

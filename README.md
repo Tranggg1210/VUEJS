@@ -53,3 +53,6 @@ binding style
 binding class
 v-if, v-else, v-if-else, v-for
 
+## Buổi 3
+Dùng input vs v-model
+
